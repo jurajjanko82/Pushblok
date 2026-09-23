@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PushBlok</string>
+    <string name="accessibility_service_description">
+        PushBlok potrebuje toto povolenie, aby vedel rozpoznať, kedy otvoríš zablokovanú appku,
+        a zobraziť obrazovku na jej odomknutie kreditmi.
+    </string>
+</resources>

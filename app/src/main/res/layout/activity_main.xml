@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:text="Kredity: 0 min" />
+
+    <TextView
+        android:id="@+id/tvSavings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="18sp"
+        android:text="Vkladná knižka: 0 kr." />
+
+    <TextView
+        android:id="@+id/tvAccessibilityStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#B00020" />
+
+    <Button
+        android:id="@+id/btnAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Zapnúť blokovanie appiek (Accessibility)" />
+
+    <Button
+        android:id="@+id/btnDeviceAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Povoliť zamykanie celého telefónu" />
+
+    <Button
+        android:id="@+id/btnSelectApps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Vybrať appky na blokovanie" />
+
+    <Button
+        android:id="@+id/btnSavings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Vkladná knižka" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Blokovať celý telefón (nielen appky)" />
+
+        <Switch
+            android:id="@+id/switchWholePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Cvičenia (zarábaj kredity kamerou)" />
+
+    <Button
+        android:id="@+id/btnAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Budík" />
+
+    <Button
+        android:id="@+id/btnAddManualCredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="+1 kredit (test / cvičenie splnené)" />
+
+</LinearLayout>
